@@ -30,21 +30,21 @@ function Show() {
         document.getElementsByName("update")[0].style.display = "block";
     }
 
-    function handleUpdate() {
-        const name = document.getElementById("name").value;
-        const email = document.getElementById("email").value;
-        const role = document.getElementById("role").value;
-        const password = document.getElementById("password").value;
+    // function handleUpdate() {
+    //     const name = document.getElementById("name").value;
+    //     const email = document.getElementById("email").value;
+    //     const role = document.getElementById("role").value;
+    //     const password = document.getElementById("password").value;
 
-        axios.put("http://localhost:8080/update", {
-            name: name,
-            email: email,
-            role: role,
-            password: password,
-        }).then((res) => {
-            setResult(null); // Refetch data after update
-        });
-    }
+    //     axios.put("http://localhost:8080/update", {
+    //         name: name,
+    //         email: email,
+    //         role: role,
+    //         password: password,
+    //     }).then((res) => {
+    //         setResult(null); // Refetch data after update
+    //     });
+    // }
 
     function handleAddUser(event) {
         event.preventDefault(); // Prevent form reload
