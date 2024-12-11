@@ -1,0 +1,52 @@
+/* Container for the Admin Assignments page */
+.admin-assignments-container {
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Table styling */
+  .admin-assignments-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Table header */
+  .admin-assignments-table thead {
+    background-color: #3f51b5;
+    color: white;
+  }
+  
+  .admin-assignments-table th {
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  /* Table rows */
+  .admin-assignments-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .admin-assignments-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Loading state message */
+  .admin-assignments-loading {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #3f51b5;
+  }
+  
+  /* Alert message for no assignments */
+  .admin-assignments-empty {
+    text-align: center;
+    font-size: 16px;
+    color: #f44336;
+  }
+  

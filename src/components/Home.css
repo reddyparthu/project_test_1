@@ -1,0 +1,75 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #0d4b6c; /* Light blue shade for general text */
+}
+
+.homepage {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.App-header {
+  background: linear-gradient(to right, #0ab0d5, #2193b0); /* Cool blue gradient */
+  min-height: 20vh; /* Adjust based on your design */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(30px + 1.5vmin);
+  color: #1a3c5d; /* Dark blue color for header text */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  border-bottom: 4px solid #4a90e2;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.lms-details {
+  padding: 20px;
+  max-width: 800px;
+  text-align: left;
+}
+
+.lms-details h2 {
+  font-size: 2em;
+  color: #0d4b6c; /* Dark blue for section headings */
+}
+
+.lms-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lms-details ul li {
+  margin: 10px 0;
+  color: #1f77b4; /* Medium blue for list items */
+}
+
+.lms-details p {
+  font-size: 1.2em;
+  color: #4c92c2; /* Light blue for paragraph text */
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .App-header {
+      font-size: calc(25px + 2vmin); /* Adjust for mobile */
+  }
+
+  .lms-details h2 {
+      font-size: 1.8em;
+  }
+
+  .lms-details p {
+      font-size: 1.1em;
+  }
+}
